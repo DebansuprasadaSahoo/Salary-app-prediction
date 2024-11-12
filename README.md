@@ -1,4 +1,6 @@
+LIVE SALARY PREDICTION LINK --> https://salaryappfrontendpy-3x3vd5p3pm9xct2bkl43a7.streamlit.app/
 # Salary-Prediction
+
 A machine learning-powered web application that predicts salary based on various input factors. The backend utilizes a Python script, trained on a machine learning model and saved as a pickle file, to process the input data and generate the predicted salary. The frontend is built using Streamlit, providing a user-friendly interface for interacting with the model.
 
 Key Features:
@@ -19,5 +21,3 @@ Additional Information:
 Dataset: Describe the dataset used to train the model (if applicable).
 Model Architecture: Provide details about the machine learning algorithm and its parameters.
 Evaluation Metrics: Mention the metrics used to evaluate the model's performance.
-
-LIVE SALARY PREDICTION LINK --> https://salaryappfrontendpy-3x3vd5p3pm9xct2bkl43a7.streamlit.app/
