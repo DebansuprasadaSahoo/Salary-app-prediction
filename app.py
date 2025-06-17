@@ -46,8 +46,8 @@ plt.show()
 # Predict salary for 12 and 20 years of experience using the trained model
 y_12 = regressor.predict([[12]])
 y_20 = regressor.predict([[20]])
-print(f"Predicted salary for 12 years of experience: ${y_12[0]:,.2f}")
-print(f"Predicted salary for 20 years of experience: ${y_20[0]:,.2f}")
+print(f"Predicted salary for 12 years of experience: Rupees{y_12[0]:,.2f}")
+print(f"Predicted salary for 20 years of experience: Rupees{y_20[0]:,.2f}")
 
 # Check model performance
 bias = regressor.score(X_train, y_train)
