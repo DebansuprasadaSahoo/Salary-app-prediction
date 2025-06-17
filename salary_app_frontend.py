@@ -14,6 +14,6 @@ if st.button("Predict salary"):
     experience_input = np.array([[years_experience]])
     prediction = model.predict(experience_input)
     
-    st.success(f'The predicted salary is {years_experience} years of experience is : ${prediction[0]:,.2f}')
+    st.success(f'The predicted salary is {years_experience} years of experience is : {prediction[0]:,.2f} INR')
     
 st.write("This prediction is formed from the salary and years of experience dataset")
